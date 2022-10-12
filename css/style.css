@@ -38,7 +38,12 @@ section#contact {
     background-size: cover;
 }
 
+section#home h1 {
+    font-size: 4vw;
+}
+
 section#home p {
+    padding-top: 5%;
     font-size: 1vw;
 }
 
