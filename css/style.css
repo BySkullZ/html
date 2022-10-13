@@ -17,7 +17,7 @@ section h2 {
 }
 
 section#home {
-    background: url(/images/background_home.jpg);
+    background: url(../images/background_home.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ section#home img {
 }
 
 section#about {
-    background: url(/images/background_about.jpg);
+    background: url(../images/background_about.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,7 +67,7 @@ section#about p {
 }
 
 section#projects {
-    background: url(/images/background_project.jpg);
+    background: url(../images/background_project.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ section#projects p {
 }
 
 section#contact {
-    background: url(/images/background_contact.jpg);
+    background: url(../images/background_contact.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
