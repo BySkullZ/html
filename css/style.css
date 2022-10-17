@@ -22,6 +22,7 @@ section#home {
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 15%;
+    z-index: 1;
 }
 
 section#home h1 {
@@ -130,7 +131,9 @@ section#contact p {
 .container-section {
     width: 100%;
     height: 100%;
+    position: relative;
     overflow-y: scroll;
+    overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
@@ -144,4 +147,12 @@ section#contact p {
     margin-top: 1vh;
     height: 1vh;
     width: 40%;
+}
+
+#particles-js{
+	top: 0;
+  	z-index: 0;
+ 	width: 100vw;
+ 	height: 100vh;
+ 	position: absolute;
 }
